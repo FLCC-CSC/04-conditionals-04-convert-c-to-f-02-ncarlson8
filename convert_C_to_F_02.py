@@ -1,8 +1,8 @@
 # FILE NAME - convert_C_to_F_02.py
 
-# NAME: 
-# DATE: 
-# BRIEF DESCRIPTION:  
+# NAME: Nick Carlson
+# DATE: 9/29/2025
+# BRIEF DESCRIPTION: Convert between celsius and fahrenheit and vice versa
 
 
 
@@ -14,16 +14,15 @@
 
 
 ########## ENTER YER CODE BELOW THIS LINE ##########
-
-
-
-
-
-
-
-
-
-
+print("===== Temperature converter =====\n\n 1. Convert from Celsius to Fahrenheit \n 2. Convert from Fahrenheit to Celsius")
+choice = input("\nPlease choose from the above menu: ")
+temp = float(input("Enter a temperature to convert: "))
+if choice == "1":
+    conv_temp = temp * 1.8 + 32
+    print(f"\n{temp} degrees Celsius is {conv_temp} degrees Fahrenheit.")
+elif choice == "2":
+    conv_temp = (temp - 32) / 1.8
+    print(f"\n{temp} degrees Fahrenheit is {conv_temp} degrees Celsius.")
 ########### END YER CODE ABOVE THIS LINE ###########
 
     
@@ -93,7 +92,7 @@ Enter a temperature to convert: -40
 
 1. What is one lesson you learned in this lab?
 
-
+Detail is important.
 
 
 
